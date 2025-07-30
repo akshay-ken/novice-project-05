@@ -1,11 +1,9 @@
-import avatar from "../assets/images/image-daniel.jpg";
-
 export function Comp1() {
   return (
     <div className="flex basis-auto flex-col max-w-sm bg-Purple-500 p-6 mx-auto my-24 rounded-xl ">
       <div className="flex flex-row items-center justify-around p-3 rounded-lg gap-x-4 w-fit">
         <img
-          src={avatar}
+          src={names[person.name]}
           className="size-10 ring-2 ring-Purple-300 bg-sky-300 rounded-full"
           alt="profile pic"
         />
