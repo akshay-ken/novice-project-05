@@ -6,7 +6,8 @@ import avatar3 from "../assets/images/image-jonathan.jpg";
 import avatar4 from "../assets/images/image-kira.jpg";
 import avatar5 from "../assets/images/image-patrick.jpg";
 
-import person from "../assets/data/data.json";
+import persons from "../assets/data/data.json";
+import { Card } from "./Card";
 
 const names = {
   "Daniel Clifford": avatar1,
@@ -19,7 +20,17 @@ const names = {
 export function MainPage() {
   return (
     <main>
-      <Comp1 />
+      {persons.map((person) => {
+        return (
+          <Card
+            name={person.name}
+            title={person.title}
+            overview={person.overview}
+            description={person.desctiption}
+            imgAvtar={names[person.name]}
+          />
+        );
+      })}
     </main>
   );
 }
