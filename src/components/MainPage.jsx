@@ -21,6 +21,7 @@ export function MainPage() {
       {persons.map((person) => {
         return (
           <Card
+            key={person.name}
             name={person.name}
             title={person.title}
             overview={person.overview}
