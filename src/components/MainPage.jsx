@@ -1,5 +1,3 @@
-import { Comp1 } from "./Comp1";
-
 import avatar1 from "../assets/images/image-daniel.jpg";
 import avatar2 from "../assets/images/image-jeanette.jpg";
 import avatar3 from "../assets/images/image-jonathan.jpg";
