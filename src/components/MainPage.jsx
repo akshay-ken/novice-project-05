@@ -17,7 +17,7 @@ const names = {
 
 export function MainPage() {
   return (
-    <main>
+    <main className="md:grid md:grid-cols-4 md:grid-rows-2 h-full md:px-[6vw]  md:my-28 md:gap-6">
       {persons.map((person) => {
         return (
           <Card
