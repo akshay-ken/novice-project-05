@@ -2,7 +2,7 @@ import clsx from "clsx";
 
 export function Card({ name, title, overview, description, imgAvtar }) {
   const cardChanges = clsx({
-    "bg-Purple-500 text-white md:col-span-2 md:max-w-full bg-[url('./assets/images/bg-pattern-quotation.svg')] bg-no-repeat bg-[position:15rem_1rem] md:bg-[position:28rem_1rem] ":
+    "bg-Purple-500 text-white md:col-span-2 md:max-w-full bg-[url('./assets/images/bg-pattern-quotation.svg')] bg-no-repeat bg-[position:95%_3%] ":
       name == "Daniel Clifford",
     "bg-gray-600 text-gray-200 ": name == "Jonathan Walters",
     "text-gray-700": name == "Jeanette Harmon",
